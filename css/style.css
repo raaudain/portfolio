@@ -462,5 +462,8 @@ html body #projects-container #projects #project-list .project .tech #axios {
     width: 100%;
     font-size: 1.6rem;
   }
+  html body #header-and-skills-container #links {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
