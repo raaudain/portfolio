@@ -2,17 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./assets/img/photo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
       content="Ramon Audain is a software developer living in the Bay Area, CA."
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/664162f341.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://kit.fontawesome.com/664162f341.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
     <title>Ramon Audain :: Software Developer</title>
   </head>
   <body>
@@ -20,25 +19,29 @@
 
     <div id="container">
       <div id="left-container">
-        <img src="assets/img/photo.png" />
+        <img src="assets/img/photo.png" alt="Photo of Ramon Audain" />
+     
+        <div id="headers">
+          <h1>RAMON AUDAIN</h1>
+          <h2>Software Developer</h2>
+        </div>
 
-        <h1>RAMON AUDAIN</h1>
-        <h2>Software Developer</h2>
-       
-        <a href="mailto:ramon.audain@gmail.com" id="mail">
-          <i class="fas fa-envelope" title="Email"></i>
-          ramon.audain@gmail.com
-        </a>
-
-        <a href="https://linkd.in/1M6NE1I" id="linked" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-linkedin" title="LinkedIn profile"></i>
-          www.linkd.in/1M6NE1I
-        </a>
-
-        <a href="https://github.com/raaudain" id="git" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github" title="GitHub profile"></i>
-          www.github.com/raaudain
-        </a>
+        <div id="contact">
+          <a href="mailto:ramon.audain@gmail.com" id="mail">
+            <i class="fas fa-envelope" title="Email"></i>
+            ramon.audain@gmail.com
+          </a>
+  
+          <a href="https://linkd.in/1M6NE1I" id="linked" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin" title="LinkedIn profile"></i>
+            www.linkd.in/1M6NE1I
+          </a>
+  
+          <a href="https://github.com/raaudain" id="git" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github" title="GitHub profile"></i>
+            www.github.com/raaudain
+          </a>
+        </div>
 
       </div>
 
@@ -108,7 +111,7 @@
                 <p>Express</p>
               </a>
             </div>
-            <div class="skill">
+            <!-- <div class="skill">
               <a href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="./assets/img/skills/heroku-logo.png"
@@ -137,7 +140,7 @@
                 />
                 <p>Insomnia</p>
               </a>
-            </div>
+            </div> -->
             <div class="skill">
               <a href="https://jestjs.io/en/" target="_blank" rel="noopener noreferrer">
                 <img
@@ -168,30 +171,30 @@
                 <p>Selenium</p>
               </a>
             </div>
-            <div class="skill">
+            <!-- <div class="skill">
               <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-npm" title="npm"></i>
                 <p>npm</p>
               </a>
-            </div>
-            <div class="skill">
+            </div> -->
+            <!-- <div class="skill">
               <a href="https://yarnpkg.com/lang/en/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-yarn" title="Yarn"></i>
                 <p>Yarn</p>
               </a>
-            </div>
+            </div> -->
             <div class="skill">
               <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-git-alt" title="Git"></i>
                 <p>Git</p>
               </a>
             </div>
-            <div class="skill">
+            <!-- <div class="skill">
               <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-bootstrap" title="Bootstrap"></i>
                 <p>Bootstrap</p>
               </a>
-            </div>
+            </div> -->
             <div class="skill">
               <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-sass" title="Sass"></i>
@@ -231,334 +234,83 @@
 
         <section id="projects">
           <h3>PROJECTS</h3>
-          <div class="project">
-            <div>
-              <div class="top">
-                <h2>NASA APOD</h2>
-                <nav>
-                  <a href="https://nasa-apod.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">Demo</a>
-                  <a href="https://github.com/raaudain/nasa-apod" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <i class="fas fa-chevron-down"></i>
-                </nav>
-              </div>
-              <p>Tech: JavaScript, React, Axios, CSS, HTML</p>
+          <button class="project">
+            <div class="project-header">
+              <h2>NASA APOD</h2>
+              <nav>
+                <a href="https://nasa-apod.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="https://github.com/raaudain/nasa-apod" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <i class="fas fa-plus"></i>
+              </nav>
             </div>
-            
-          </div>
+            <p>Tech: JavaScript, React, Axios, CSS, HTML</p>
+              <div class="content">
+                <p>Every wondered what's going on in outer space? NASA APOD gives you a glimpse of what's going on in the universe.</p>
+                <img src="./assets/img/projects/apod.png" alt="NASA Astronomy Picture of the Day">
+              </div>
+          </button>
+
+          <button class="project">
+            <div class="project-header">
+              <h2>Gotta Do</h2>
+              <nav>
+                <a href="https://gotta-do.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="https://github.com/raaudain/gotta-do" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <i class="fas fa-plus"></i>
+              </nav>
+            </div>
+            <p>Tech: JavaScript, React, Sass, HTML</p>
+              <div class="content">
+                <p>Today's world can be hectic and keeping up with all the things that need done can be a job in itself. Gotta Do keeps track of all of your errands so you don't have to.</p>
+                <img src="./assets/img/projects/gotta.png" alt="Gotta Do">
+              </div> 
+          </button>
+
+          <button class="project">
+            <div class="project-header">
+              <h2>Tennis Game</h2>
+              <nav>
+                <a href="tennis-game.raaudain.now.sh" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="https://github.com/raaudain/tennis-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <i class="fas fa-plus"></i>
+              </nav>
+            </div>
+            <p>Tech: JavaScript, CSS, HTML</p>
+              <div class="content">
+                <p>Have time to kill? Play a clone of an arcade classic.</p>
+                <img src="./assets/img/projects/tennis.png" alt="Tennis Game">
+              </div> 
+          </button>
+
+          <button class="project">
+            <div class="project-header">
+              <h2>GetPaid</h2>
+              <nav>
+                <a href="https://github.com/raaudain/Get-Paid" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <i class="fas fa-plus"></i>
+              </nav>
+            </div>
+            <p>Tech: Python, Selenium</p>
+              <div class="content">
+                <p>If the company you work for uses SpringAhead and you keep forgetting to fill out your hours, GetPaid is for you. GetPaid is a Python script that automatically fills out your timecard.</p>
+              </div> 
+          </button>
+          
         </section>
         <section id="about-me">
           <h3>ABOUT ME</h3>
-          <p>So how did I get into software development?</p>
-
-          <p>Well, after being told by my manager to fill out my timesheet one too many times, I decided to try to write a Python script that would do the work for me. So one Saturday, I spent 8 hours resea</p>
-
-          <p>I currently live in the Bay Area, CA. Rent's expensive, but I love the weather.</p>
-
-          <p>During my free time, I enjoy messing around with my computer, watching movies and tv shows, playing video games, and attempting to exercise.</p>
+          <div>
+            <p>So how did I get into software development?</p>
+  
+            <p>Well, after being told by my manager to fill out my timesheet one too many times, I decided to try and write a Python script that would do the work for me. So one Saturday, after 8 hours of researching and coding, I eventually came up with something that worked. 
+            After my success, I began thinking that maybe I could do this for a living. So I went back to school and the rest is history.</p>
+  
+            <p>Currently, I live in the Bay Area, CA. Rent's expensive, but I love the weather.</p>
+  
+            <p>During my free time, I enjoy messing around with my computer, watching movies and tv shows, playing video games, and attempting to exercise.</p>
+          </div>
         </section>
       </div>
     </div>
-  <!-- <div class="container">
-      <div id="left-container">
-        <h1>Ramon Audain</h1>
-        <h3>Software Developer in Mountain View, CA</h3>
-  
-        <div id="links">
-          <a href="mailto:ramon.audain@gmail.com" id="mail">
-            <i class="far fa-envelope" title="Email"></i>
-            <p>Email</p>
-          </a>
-  
-          <a href="http://linkd.in/1M6NE1I" id="linked" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-linkedin" title="LinkedIn profile"></i>
-            <p>LinkedIn</p>
-          </a>
-  
-          <a href="https://github.com/raaudain" id="git" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-github" title="GitHub profile"></i>
-            <p>GitHub</p>
-          </a>
-      </div>
-        
-  
-      <div class="right-container">
-    
-        <div id="skills">
-          <h3>Experience with...</h3>
-          <div id="skill-list">
-            <div class="skill">
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/js-logo.png"
-                  alt="JavaScript logo"
-                  title="JavaScript"
-                />
-                <p>JavaScript</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/python-logo.png"
-                  alt="Python logo"
-                  title="Python"
-                />
-                <p>Python</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-react" title="React"></i>
-                <p>React</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-node-js" title="Node.js"></i>
-                <p>Node.js</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/redux-logo.png"
-                  alt="Redux logo"
-                  title="Redux"
-                />
-                <p>Redux</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.sqlite.org" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/SQLite-logo.png"
-                  alt="SQLite logo"
-                  title="SQLite"
-                />
-                <p>SQLite</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/expressjs.png"
-                  alt="Express logo"
-                  title="Express"
-                />
-                <p>Express</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/heroku-logo.png"
-                  alt="Heroku logo"
-                  title="Heroku"
-                />
-                <p>Heroku</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.getpostman.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/postman-logo.png"
-                  alt="Postman logo"
-                  title="Postman"
-                />
-                <p>Postman</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://insomnia.rest/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/insomnia-logo.jpg"
-                  alt="Insomnia logo"
-                  title="Insomnia"
-                />
-                <p>Insomnia</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://jestjs.io/en/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/jest-logo.png"
-                  alt="Jest logo"
-                  title="Jest"
-                />
-                <p>Jest</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/axios-logo.png"
-                  alt="Axios logo"
-                  title="Axios"
-                />
-                <p>Axios</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.seleniumhq.org/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/selenium-logo.png"
-                  alt="Selenium logo"
-                  title="Selenium"
-                />
-                <p>Selenium</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-npm" title="npm"></i>
-                <p>npm</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://yarnpkg.com/lang/en/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-yarn" title="Yarn"></i>
-                <p>Yarn</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-git-alt" title="Git"></i>
-                <p>Git</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-bootstrap" title="Bootstrap"></i>
-                <p>Bootstrap</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-sass" title="Sass"></i>
-                <p>Sass</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="http://lesscss.org/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-less" title="Less"></i>
-                <p>Less</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-css3-alt" title="CSS3"></i>
-                <p>CSS</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-html5" title="HTML5"></i>
-                <p>HTML</p>
-              </a>
-            </div>
-            <div class="skill">
-              <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="./assets/img/skills/linux.png"
-                  alt="Linux logo"
-                  title="Linux"
-                />
-                <p>Linux</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-  
-      <div id="projects-container">
-        <div id="projects">
-          <h3>Projects</h3>
-          <div id="project-list">
-            <div class="project">
-              <p class="project-title">To Do List</p>
-              <a href="https://gotta-do.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/projects/gotta.png" alt="Gotta Do App" />
-              </a>
-              <div class="view">
-                <div>
-                  <a href="https://gotta-do.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">
-                    <p><i class="fas fa-desktop"></i></p>
-                    <p>View Project</p>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://github.com/raaudain/gotta-do" target="_blank" rel="noopener noreferrer">
-                    <p><i class="fas fa-code"></i></p>
-                    <p>See Code</p>
-                  </a>
-                </div>
-              </div>
-              <div class="tech">
-                <p id="js">JavaScript</p>
-                <p id="react">React</p>
-                <p id="sass">Sass</p>
-                <p id="html">HTML</p>
-              </div>
-            </div>
-            <div class="project">
-              <p class="project-title">NASA APOD</p>
-              <a href="https://nasa-apod.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="assets/img/projects/apod2.png"
-                  alt="NASA Astronomy Picture of the Day"
-                />
-              </a>
-              <div class="view">
-                <div>
-                  <a href="https://nasa-apod.raaudain.now.sh/" target="_blank" rel="noopener noreferrer">
-                    <p><i class="fas fa-desktop"></i></p>
-                    <p>View Project</p>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://github.com/raaudain/nasa-apod" target="_blank" rel="noopener noreferrer">
-                    <p><i class="fas fa-code"></i></p>
-                    <p>See Code</p>
-                  </a>
-                </div>
-              </div>
-              <div class="tech">
-                <p id="js">JavaScript</p>
-                <p id="react">React</p>
-                <p id="axios">Axios</p>
-                <p id="css">CSS</p>
-                <p id="html">HTML</p>
-              </div>
-            </div>
-            <div class="project">
-              <p class="project-title">GetPaid Script</p>
-              <img
-                src="assets/img/projects/na.png"
-                alt="Screenshot Unavailable"
-              />
-              <div class="view">
-                <div>
-                  <a href="https://github.com/raaudain/Get-Paid" target="_blank" rel="noopener noreferrer">
-                    <p><i class="fas fa-code"></i></p>
-                    <p>See Code</p>
-                  </a>
-                </div>
-              </div>
-              <div class="tech">
-                <p id="py">Python</p>
-                <p id="se">Selenium</p>
-              </div>
-            </div>
-          </div>
-     
-          <div id="about-me">
-            <p></p>
-          </div>
-        </div>
-    </div> 
-    </div>
-     -->
-
   </body>
 </html>
