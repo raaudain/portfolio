@@ -2,8 +2,6 @@ document.querySelectorAll(".project").forEach(button => {
   button.addEventListener("click", () => {
     const content = button.lastElementChild;
     const toggleClass = button.children[0].children[1].lastElementChild;
-
-    console.log(button)
     
     // Adds active to the end of project class
     button.classList.toggle("--active");

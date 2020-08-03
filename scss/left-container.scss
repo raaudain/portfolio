@@ -50,15 +50,6 @@
     margin: 0 auto;
     width: 98%;
 
-    @media (max-width: 646px) {
-      #left-container {
-        //display: flex;
-        border: none;
-        margin: 0 auto;
-        width: 98%;
-      }
-    }
-
     img {
       display: none;
     }
@@ -66,47 +57,19 @@
     #headers {
      
       h1 {
-        font-size: 4rem;
+        font-size: 3.27rem;
       }
 
       h2 {
-        font-size: 3.25rem;
+        font-size: 2.5rem;
         margin: 0;
       }
     }
 
     #contact {
-      #git {
-        margin: 0;
+      span {
+        display: none;
       }
-    }
-  }
-}
-
-@media (max-width: 646px) {
-  #left-container {
-    //display: flex;
-    border: none;
-    margin: 0 auto;
-    width: 98%;
-
-    img {
-      display: none;
-    }
-
-    #headers {
-     
-      h1 {
-        font-size: 4rem;
-      }
-
-      h2 {
-        font-size: 3.25rem;
-        margin: 0;
-      }
-    }
-
-    #contact {
       #git {
         margin: 0;
       }
