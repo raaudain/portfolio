@@ -1,12 +1,12 @@
 document.querySelectorAll(".project").forEach(button => {
   button.addEventListener("click", () => {
-    const content = button.lastElementChild;
-    const toggleClass = button.children[0].children[1].lastElementChild;
+    const content = button.lastElementChild; // Declares content id as a variable
+    const toggleClass = button.firstElementChild.children[1].lastElementChild; // Declares icon in nav as variable
     
-    // Adds active to the end of project class
+    // Adds "--active" to the end of project class when clicked
     button.classList.toggle("--active");
 
-    // If the class contains --active, expand target and change the class
+    // If the class contains "--active", expand target and change the class
     if (button.classList.contains("--active")) {
       content.style.maxHeight = content.scrollHeight + "px";
       content.style.transition = "1s ease-out";
