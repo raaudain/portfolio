@@ -18,20 +18,3 @@ document.querySelectorAll(".project").forEach(button => {
     }
   });
 });
-
-
-
-
-
-// const project = document.querySelectorAll(".project")
-
-// project.forEach(item => {
-//     item.addEventListener("mouseenter", () => {
-//         item.style.transform = "scale(1.02)";
-//         item.style.transition = "1s";
-//     })
-
-//     item.addEventListener("mouseleave", () => {
-//         item.style.transform = "scale(1)";
-//     })
-// })

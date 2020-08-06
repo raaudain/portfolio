@@ -155,7 +155,7 @@ html {
   #container {
     display: flex;
     flex-direction: column;
-    margin: 5% auto;
+    margin: 2% auto 7%;
     width: 95%;
   }
 }
@@ -167,9 +167,9 @@ html {
   padding: 15px 20px 15px 0;
 }
 #left-container img {
+  margin: 43px 0 15px;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 15px;
 }
 #left-container h1 {
   font-size: 3rem;
@@ -221,6 +221,9 @@ html {
   }
   #left-container #contact #git {
     margin: 0;
+  }
+  #left-container #contact i {
+    margin: auto;
   }
 }
 #right-container {
@@ -335,6 +338,9 @@ html {
   margin-left: 15px;
   letter-spacing: 1px;
   color: #0645ad;
+}
+#projects .project .project-header nav a:hover {
+  text-decoration: underline;
 }
 #projects .project .project-header .fa-plus, #projects .project .project-header .fa-minus {
   font-size: 1.6rem;
