@@ -17,7 +17,7 @@ project.forEach(button => {
       content.style.transition = "1s ease-out";
       toggleClass.className = "fas fa-minus";
     } 
-    else {
+    else if (!button.classList.contains("--active") && tagName !== "A") {
       content.style.maxHeight = 0;
       toggleClass.className = "fas fa-plus";
     }
