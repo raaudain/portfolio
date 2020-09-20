@@ -49,7 +49,7 @@ $projects = [
     [
         "name" => "My Porfolio",
         "projectLink" => "https://www.ramonaudain.com",
-        "gitHubLink" => "https://https://github.com/raaudain/portfolio",
+        "gitHubLink" => "https://github.com/raaudain/portfolio",
         "tech" => "PHP, JavaScript, HTML, Sass",
         "description" => "No need for an image. You're already on the site.",
         "image" => "",
