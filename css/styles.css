@@ -312,6 +312,9 @@ html {
 #skills #skill-list .skill a img {
   height: 35px;
 }
+#skills #skill-list .skill a i {
+  font-size: 3.9rem;
+}
 
 #projects {
   margin-top: 20px;
