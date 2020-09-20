@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 $skills = [
     // JavaScript
     [
@@ -94,7 +93,7 @@ $skills = [
     ],
     // Less
     [
-        "link" => "https://lesscss.org/",
+        "link" => "http://lesscss.org/",
         "image" => "",
         "fontAwe" => "fab fa-less",
         "skill" => "Less",
@@ -126,25 +125,19 @@ $skills = [
 <section id="skills">
     <h3>SKILLS</h3>
     <div id="skill-list">
-
-<?php
-
-foreach ($skills as $x) {
-    ?>
-    <div class="skill">
-        <a href="<?php echo $x["link"]; ?>" target="_blank" rel="noopener noreferrer">
-        <?php if ($x["image"]) {
-            echo "<img src='" . $x["image"] . "' alt='" . $x["skill"] . " logo' title='" . $x["skill"] . "' />"; 
-        }
-        ?>
-            <i class="<?php echo $x["fontAwe"]; ?>" title="<?php echo $x["skill"]; ?>"></i>
-            <p><?php echo $x["skill"]; ?></p>
-        </a>
-    </div>
-
-<?php };
-
-?>
-
+        <?php foreach ($skills as $x) { ?>
+            <div class="skill">
+                <a href="<?php echo $x["link"]; ?>" target="_blank" rel="noopener noreferrer">
+                    <?php
+                        if ($x["image"]) {
+                            echo "<img src='" . $x["image"] . "' alt='" . $x["skill"] . " logo' title='" . $x["skill"] . "' />";
+                        } else {
+                            echo "<i class='" . $x["fontAwe"] . "' title='" . $x["skill"] . "'></i>";
+                        }
+                    ?>
+                    <p><?php echo $x["skill"]; ?></p>
+                </a>
+            </div>
+        <?php }; ?>
     </div>
 </section>
