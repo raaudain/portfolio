@@ -45,6 +45,15 @@ $projects = [
         "description" => "If the company you work for uses SpringAhead and you keep forgetting to fill out your hours, GetPaid is for you. GetPaid is a Python script that automatically fills out your timecard.",
         "image" => "",
     ],
+    // My Portfolio
+    [
+        "name" => "My Porfolio",
+        "projectLink" => "https://www.ramonaudain.com",
+        "gitHubLink" => "https://https://github.com/raaudain/portfolio",
+        "tech" => "PHP, JavaScript, HTML, Sass",
+        "description" => "",
+        "image" => "",
+    ],
 ];
 ?>
 

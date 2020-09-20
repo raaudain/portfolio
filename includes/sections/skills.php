@@ -131,7 +131,8 @@ $skills = [
                     <?php
                         if ($x["image"]) {
                             echo "<img src='" . $x["image"] . "' alt='" . $x["skill"] . " logo' title='" . $x["skill"] . "' />";
-                        } else {
+                        } 
+                        else {
                             echo "<i class='" . $x["fontAwe"] . "' title='" . $x["skill"] . "'></i>";
                         }
                     ?>
