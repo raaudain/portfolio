@@ -10,7 +10,7 @@
       content="Ramon Audain is a software developer living in the Bay Area, CA."
     />
     <meta keywords="ramon audain, fullstack developer looking for work, freelance web developer in bay area, freelance web developer in Mountain View, CA, " />
-    <?php echo "<style>";  echo include "css/styles.css"; echo "</style>"; ?>
+    <style><?php echo include "css/styles.css"; ?></style>
     <script src="https://kit.fontawesome.com/664162f341.js" crossorigin="anonymous"></script>
     <script src="js/index.js" defer></script>
     <title>Ramon Audain :: Software Developer</title>
