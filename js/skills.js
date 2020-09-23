@@ -119,3 +119,11 @@ const skills = [
         skill: "Linux",
     },
 ];
+
+const container = document.querySelector("#skills");
+
+function addSkills(link, image, fontawe, skill) {
+    const skillList = document.createElement("div");
+    const skills = document.createElement("div");
+
+}
