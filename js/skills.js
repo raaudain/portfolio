@@ -4,126 +4,133 @@ const skills = [
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         image: "assets/img/skills/js-logo.png",
         fontAwe: "",
-        skill: "JavaScript",
+        name: "JavaScript",
     },
     // PHP
     {
         link: "https://www.php.net/",
         image: "assets/img/skills/php-logo.svg",
         fontAwe: "",
-        skill: "PHP",
+        name: "PHP",
     },
     // Python
     {
         link: "https://www.python.org/",
         image: "assets/img/skills/python-logo.png",
         fontAwe: "",
-        skill: "Python",
+        name: "Python",
     },
     // React
     {
         link: "https://reactjs.org/",
         image: "",
         fontAwe: "fab fa-react",
-        skill: "React",
+        name: "React",
     },
     // Node.js
     {
         link: "https://nodejs.org/en/",
         image: "",
         fontAwe: "fab fa-node-js",
-        skill: "Node.js",
+        name: "Node.js",
     },
     // Redux
     {
         link: "https://redux.js.org/",
         image: "assets/img/skills/redux-logo.png",
         fontAwe: "",
-        skill: "Redux",
+        name: "Redux",
     },
     // SQLite
     {
         link: "https://www.sqlite.org",
         image: "assets/img/skills/SQLite-logo.png",
         fontAwe: "",
-        skill: "SQLite",
+        name: "SQLite",
     },
     // Express
     {
         link: "https://expressjs.com/",
         image: "assets/img/skills/expressjs.png",
         fontAwe: "",
-        skill: "Express",
+        name: "Express",
     },
     // Jest
     {
         link: "https://jestjs.io/en/",
         image: "assets/img/skills/jest-logo.png",
         fontAwe: "",
-        skill: "Jest",
+        name: "Jest",
     },
     // Axios
     {
         link: "https://github.com/axios/axios",
         image: "assets/img/skills/axios-logo.png",
         fontAwe: "",
-        skill: "Axios",
+        name: "Axios",
     },
     // Selenium
     {
         link: "https://www.seleniumhq.org/",
         image: "assets/img/skills/selenium-logo.png",
         fontAwe: "",
-        skill: "Selenium",
+        name: "Selenium",
     },
     // Git
     {
         link: "https://git-scm.com/",
         image: "",
         fontAwe: "fab fa-git-alt",
-        skill: "Git",
+        name: "Git",
     },
     // Sass
     {
         link: "https://sass-lang.com/",
         image: "",
         fontAwe: "fab fa-sass",
-        skill: "Sass",
+        name: "Sass",
     },
     // Less
     {
         link: "http://lesscss.org/",
         image: "",
         fontAwe: "fab fa-less",
-        skill: "Less",
+        name: "Less",
     },
     // CSS
     {
         link: "https://www.w3.org/Style/CSS/",
         image: "",
         fontAwe: "fab fa-css3-alt",
-        skill: "CSS",
+        name: "CSS",
     },
     // HTML
     {
         link: "https://www.w3.org/html/",
         image: "",
         fontAwe: "fab fa-html5",
-        skill: "HTML",
+        name: "HTML",
     },
     // Linux
     {
         link: "https://www.linux.org/",
         image: "assets/img/skills/linux.png",
         fontAwe: "",
-        skill: "Linux",
+        name: "Linux",
     },
 ];
 
 const container = document.querySelector("#skills");
 
-function addSkills(link, image, fontawe, skill) {
+function addSkills(link, image, fontawe, name) {
     const skillList = document.createElement("div");
-    const skills = document.createElement("div");
+    const skill = document.querySelector("#skill-list").createElement("div");
+    const url = document.querySelector("#skill").createElement("a");
+    const img = document.querySelector("#skill a").createElement("img");
+
+
+    skillList.classList.add("skill-list");
+    skill.classList.add("skill");
+    
 
 }
