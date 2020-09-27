@@ -120,7 +120,7 @@ const skills = [
     },
 ];
 
-const container = document.querySelector("#skills");
+const skillsContainer = document.querySelector("#skills");
 
 function addSkills(link, image, fontawe, name) {
     const skillList = document.createElement("div");
