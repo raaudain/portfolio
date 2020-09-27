@@ -2,120 +2,103 @@ const skills = [
     // JavaScript
     {
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        image: "assets/img/skills/js-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/js-logo.png",
         name: "JavaScript",
     },
     // PHP
     {
         link: "https://www.php.net/",
-        image: "assets/img/skills/php-logo.svg",
-        fontAwe: "",
+        image: "/assets/img/skills/php-logo.svg",
         name: "PHP",
     },
     // Python
     {
         link: "https://www.python.org/",
-        image: "assets/img/skills/python-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/python-logo.png",
         name: "Python",
     },
     // React
     {
         link: "https://reactjs.org/",
-        image: "",
-        fontAwe: "fab fa-react",
+        icon: "fab fa-react",
         name: "React",
     },
     // Node.js
     {
         link: "https://nodejs.org/en/",
-        image: "",
-        fontAwe: "fab fa-node-js",
+        icon: "fab fa-node-js",
         name: "Node.js",
     },
     // Redux
     {
         link: "https://redux.js.org/",
-        image: "assets/img/skills/redux-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/redux-logo.png",
         name: "Redux",
     },
     // SQLite
     {
         link: "https://www.sqlite.org",
-        image: "assets/img/skills/SQLite-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/SQLite-logo.png",
         name: "SQLite",
     },
     // Express
     {
         link: "https://expressjs.com/",
-        image: "assets/img/skills/expressjs.png",
-        fontAwe: "",
+        image: "/assets/img/skills/expressjs.png",
         name: "Express",
     },
     // Jest
     {
         link: "https://jestjs.io/en/",
-        image: "assets/img/skills/jest-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/jest-logo.png",
         name: "Jest",
     },
     // Axios
     {
         link: "https://github.com/axios/axios",
-        image: "assets/img/skills/axios-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/axios-logo.png",
         name: "Axios",
     },
     // Selenium
     {
         link: "https://www.seleniumhq.org/",
-        image: "assets/img/skills/selenium-logo.png",
-        fontAwe: "",
+        image: "/assets/img/skills/selenium-logo.png",
         name: "Selenium",
     },
     // Git
     {
         link: "https://git-scm.com/",
-        image: "",
-        fontAwe: "fab fa-git-alt",
+        icon: "fab fa-git-alt",
         name: "Git",
     },
     // Sass
     {
         link: "https://sass-lang.com/",
-        image: "",
-        fontAwe: "fab fa-sass",
+        icon: "fab fa-sass",
         name: "Sass",
     },
     // Less
     {
         link: "http://lesscss.org/",
-        image: "",
-        fontAwe: "fab fa-less",
+        icon: "fab fa-less",
         name: "Less",
     },
     // CSS
     {
         link: "https://www.w3.org/Style/CSS/",
-        image: "",
-        fontAwe: "fab fa-css3-alt",
+        icon: "fab fa-css3-alt",
         name: "CSS",
     },
     // HTML
     {
         link: "https://www.w3.org/html/",
-        image: "",
-        fontAwe: "fab fa-html5",
+        icon: "fab fa-html5",
         name: "HTML",
     },
     // Linux
     {
         link: "https://www.linux.org/",
-        image: "assets/img/skills/linux.png",
-        fontAwe: "",
+        image: "/assets/img/skills/linux.png",
         name: "Linux",
     },
 ];
@@ -154,7 +137,7 @@ skills.forEach(skill => {
     }
     else {
         image = document.createElement("i");
-        image.className = skill.fontAwe;
+        image.className = skill.icon;
         image.title = skill.name;
     }
 

@@ -1,28 +1,33 @@
+const headers = [
+    {
+        header: "SKILLS",
+        id: "skills"
+    },
+    {
+        header: "PROJECTS",
+        id: "projects"
+    },
+    {
+        header: "ABOUT US",
+        id: "about-me"
+    },
+];
+
 // Find right-container id
 export const right = document.querySelector("#right-container");
 
-// Create elements
-const skills = document.createElement("section");
-const projects = document.createElement("section");
-const aboutMe = document.createElement("section");
-const skillsHeader = document.createElement("h3");
-const projectsHeader = document.createElement("h3");
-const aboutMeHeader = document.createElement("h3");
+headers.forEach(info => {
+    // Create elements
+    const section = document.createElement("section");
+    const h3 = document.createElement("h3");
 
-// Add text
-skillsHeader.textContent = "SKILLS";
-projectsHeader.textContent = "PROJECTS";
-aboutMeHeader.textContent = "ABOUT ME";
+    // Add attribute
+    section.id = info.id;
 
-// Add attributes
-skills.id = "skills";
-projects.id = "projects";
-aboutMe.id = "about-me";
+    // Append child nodes to parent
+    h3.textContent = info.header;
 
-// Append child nodes to parent
-right.appendChild(skills);
-right.appendChild(projects);
-right.appendChild(aboutMe);
-skills.appendChild(skillsHeader);
-projects.appendChild(projectsHeader);
-aboutMe.appendChild(aboutMeHeader);
+    // Append child nodes to parent
+    right.appendChild(section);
+    section.appendChild(h3);
+});

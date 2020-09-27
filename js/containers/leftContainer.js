@@ -1,3 +1,27 @@
+const contactInfo = [
+    {
+        text: "ramonaudain@gmail.com",
+        id: "mail",
+        link: "mailto:ramonaudain@gmail.com",
+        icon: "fas fa-envelope",
+        title: "Email",
+    },
+    {
+        text: "www.linkd.in/1M6NE1I",
+        id: "linked",
+        link: "https://www.linkedin.com/in/ramon-audain/",
+        icon: "fab fa-linkedin",
+        title: "LinkedIn profile",
+    },
+    {
+        text: "www.github.com/raaudain",
+        id: "git",
+        link: "https://github.com/raaudain",
+        icon: "fab fa-github",
+        title: "GitHub profile",
+    },
+];
+
 // Find left-container id
 export const left = document.querySelector("#left-container");
 
@@ -7,48 +31,35 @@ const headers = document.createElement("div");
 const contact = document.createElement("div");
 const h1 = document.createElement("h1");
 const h2 = document.createElement("h2");
-const mail = document.createElement("a");
-const mailIcon = document.createElement("i");
-const mailText = document.createElement("span");
-const linked = document.createElement("a");
-const linkedIcon = document.createElement("i");
-const linkedText = document.createElement("span");
-const git = document.createElement("a");
-const gitIcon = document.createElement("i");
-const gitText = document.createElement("span");
 
 // Add text
 h1.textContent = "RAMON AUDAIN";
 h2.textContent = "Software Developer";
-mailText.textContent = "ramonaudain@gmail.com";
-linkedText.textContent = "www.linkd.in/1M6NE1I";
-gitText.textContent = "www.github.com/raaudain";
 
 // Add attributes
-image.src = "assets/img/photo.png";
+image.src = "/assets/img/photo.png";
 image.alt = "Photo of Ramon Audain";
 
 headers.id = "headers";
-contact.id= "contact";
+contact.id = "contact";
 
-mail.href = "mailto:ramonaudain@gmail.com";
-mail.id = "mail";
-mailIcon.className = "fas fa-envelope";
-mailIcon.title = "Email";
+contactInfo.forEach(info => {
+    const link = document.createElement("a");
+    const icon = document.createElement("i");
+    const text = document.createElement("span");
 
-linked.href = "https://www.linkedin.com/in/ramon-audain/";
-linked.id = "linked";
-linked.target = "_blank";
-linked.rel = "noopener noreferrer";
-linkedIcon.className = "fab fa-linkedin";
-linkedIcon.title = "LinkedIn profile";
+    link.href = info.link;
+    link.id = info.id;
+    icon.className = info.icon;
+    icon.title = info.title;
+    text.textContent = info.text;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
 
-git.href = "https://github.com/raaudain";
-git.id = "git";
-git.target = "_blank";
-git.rel = "noopener noreferrer";
-gitIcon.className = "fab fa-github";
-gitIcon.title = "GitHub profile";
+    contact.appendChild(link);
+    link.appendChild(icon);
+    link.appendChild(text);
+});
 
 // Append child nodes to parent
 left.appendChild(image);
@@ -56,12 +67,3 @@ left.appendChild(headers);
 left.appendChild(contact);
 headers.appendChild(h1);
 headers.appendChild(h2);
-contact.appendChild(mail);
-contact.appendChild(linked);
-contact.appendChild(git);
-mail.appendChild(mailIcon);
-mail.appendChild(mailText);
-linked.appendChild(linkedIcon);
-linked.appendChild(linkedText);
-git.appendChild(gitIcon);
-git.appendChild(gitText);

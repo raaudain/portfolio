@@ -11,7 +11,7 @@ const paragraphs = [
     {
         content: "During my free time, I enjoy messing around with my computer, watching movies and TV shows, playing video games, and attempting to exercise."
     },
-]
+];
 
 // Find about-me id
 export const about = document.querySelector("#about-me");
