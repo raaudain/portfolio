@@ -120,17 +120,50 @@ const skills = [
     },
 ];
 
-const skillsContainer = document.querySelector("#skills");
+// Find skillsContainer id
+export const skillsContainer = document.querySelector("#skills");
 
-function addSkills(link, image, fontawe, name) {
-    const skillList = document.createElement("div");
-    const skill = document.querySelector("#skill-list").createElement("div");
-    const url = document.querySelector("#skill").createElement("a");
-    const img = document.querySelector("#skill a").createElement("img");
+// Create element
+const skillList = document.createElement("div");
 
+// Add attribute
+skillList.id = "skill-list";
 
-    skillList.classList.add("skill-list");
-    skill.classList.add("skill");
+// Append child node to parent
+skillsContainer.appendChild(skillList);
+
+// Creates skill element for each skill in skills array then appends skill to parent node
+skills.forEach(skill => {
+    // Create elements
+    const s = document.createElement("div");
+    const link = document.createElement("a");
+    let image;
+    const title = document.createElement("p");
+
+    // Add attributes
+    s.className = "skill";
+    link.href = skill.link;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    // Checks if there is an image file
+    if (skill.image) {
+        image = document.createElement("img");
+        image.src = skill.image;
+        image.alt = `${skill.name} logo`;
+        image.title = skill.name;
+    }
+    else {
+        image = document.createElement("i");
+        image.className = skill.fontAwe;
+        image.title = skill.name;
+    }
     
+    // Add text
+    title.textContent = skill.name;
 
-}
+    // Append child nodes to parent
+    skillList.appendChild(s);
+    s.appendChild(link);
+    link.appendChild(image);
+    link.appendChild(title);
+});
