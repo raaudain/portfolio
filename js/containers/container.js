@@ -1,4 +1,5 @@
-const body = document.querySelector("body");
+// Find body tag
+export const body = document.querySelector("body");
 
 // Create elements
 const noscript = document.createElement("noscript");

@@ -1,5 +1,5 @@
 // Find left-container id
-const left = document.querySelector("#left-container");
+export const left = document.querySelector("#left-container");
 
 // Create elements
 const image = document.createElement("img");
