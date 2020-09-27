@@ -7,7 +7,7 @@ project.forEach(button => {
     // Declares icon in nav as variable
     const toggleClass = button.firstElementChild.children[1].lastElementChild; 
     const tagName = element.target.tagName;
-    
+
     // Adds "--active" to the end of project class when clicked
     button.classList.toggle("--active");
 

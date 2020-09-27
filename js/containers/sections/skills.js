@@ -137,8 +137,8 @@ skills.forEach(skill => {
     // Create elements
     const s = document.createElement("div");
     const link = document.createElement("a");
-    let image;
     const title = document.createElement("p");
+    let image;
 
     // Add attributes
     s.className = "skill";
@@ -157,7 +157,7 @@ skills.forEach(skill => {
         image.className = skill.fontAwe;
         image.title = skill.name;
     }
-    
+
     // Add text
     title.textContent = skill.name;
 
