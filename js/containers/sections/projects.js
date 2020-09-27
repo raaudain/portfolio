@@ -17,13 +17,6 @@ const projects = [
         description: "Every wondered what's going on in outer space? NASA APOD gives you a glimpse of what's going on in the universe.",
         image: "/assets/img/projects/apod.png",
     },
-    {
-        name: "Portfolio",
-        gitHubLink: "https://github.com/raudain",
-        tech: "JavaScript, Sass, HTML",
-        description: "This portfolio was make using DOM manipulation."
-
-    },
     // Gotta Do
     {
         name: "Gotta Do",
