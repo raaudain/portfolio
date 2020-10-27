@@ -1,25 +1,25 @@
 const contactInfo = [
-    {
-        text: "ramonaudain@gmail.com",
-        id: "mail",
-        link: "mailto:ramonaudain@gmail.com",
-        icon: "fas fa-envelope",
-        title: "Email",
-    },
-    {
-        text: "www.linkd.in/1M6NE1I",
-        id: "linked",
-        link: "https://www.linkedin.com/in/ramon-audain/",
-        icon: "fab fa-linkedin",
-        title: "LinkedIn profile",
-    },
-    {
-        text: "www.github.com/raaudain",
-        id: "git",
-        link: "https://github.com/raaudain",
-        icon: "fab fa-github",
-        title: "GitHub profile",
-    },
+  {
+    text: "ramonaudain@gmail.com",
+    id: "mail",
+    link: "mailto:ramonaudain@gmail.com",
+    icon: "fas fa-envelope",
+    title: "Email",
+  },
+  {
+    text: "www.linkd.in/1M6NE1I",
+    id: "linked",
+    link: "https://www.linkedin.com/in/ramon-audain/",
+    icon: "fab fa-linkedin",
+    title: "LinkedIn profile",
+  },
+  {
+    text: "www.github.com/raaudain",
+    id: "git",
+    link: "https://github.com/raaudain",
+    icon: "fab fa-github",
+    title: "GitHub profile",
+  },
 ];
 
 // Find left-container id
@@ -43,22 +43,22 @@ image.alt = "Photo of Ramon Audain";
 headers.id = "headers";
 contact.id = "contact";
 
-contactInfo.forEach(info => {
-    const link = document.createElement("a");
-    const icon = document.createElement("i");
-    const text = document.createElement("span");
+contactInfo.forEach((info) => {
+  const link = document.createElement("a");
+  const icon = document.createElement("i");
+  const text = document.createElement("span");
 
-    link.href = info.link;
-    link.id = info.id;
-    icon.className = info.icon;
-    icon.title = info.title;
-    text.textContent = info.text;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
+  link.href = info.link;
+  link.id = info.id;
+  icon.className = info.icon;
+  icon.title = info.title;
+  text.textContent = info.text;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
 
-    contact.appendChild(link);
-    link.appendChild(icon);
-    link.appendChild(text);
+  contact.appendChild(link);
+  link.appendChild(icon);
+  link.appendChild(text);
 });
 
 // Append child nodes to parent
