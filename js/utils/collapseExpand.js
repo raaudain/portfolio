@@ -21,4 +21,4 @@ function toggleActive(e) {
   }
 }
 
-projects.forEach(project => project.addEventListener("click", toggleActive));
+export const collapseExpand = projects.forEach(project => project.addEventListener("click", toggleActive));
