@@ -6,7 +6,6 @@ function toggleActive(e) {
   // Declares icon in nav as variable
   const toggleClass = this.firstElementChild.children[1].lastElementChild; 
   const tagName = e.target.tagName;
-  console.log(this)
 
   // Adds "--active" to the end of project class when clicked
   this.classList.toggle("--active");
