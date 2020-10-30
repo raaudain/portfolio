@@ -1,10 +1,10 @@
-const projects = document.querySelectorAll(".project");
+const project = document.querySelectorAll(".project");
 
 function toggleActive(e) {
   // Declares content id as a variable
-  const content = this.lastElementChild; 
+  const content = this.querySelector(".content"); 
   // Declares icon in nav as variable
-  const toggleClass = this.firstElementChild.children[1].lastElementChild; 
+  const toggleClass = this.querySelector("i");
   const tagName = e.target.tagName;
 
   // Adds "--active" to the end of project class when clicked
@@ -21,4 +21,4 @@ function toggleActive(e) {
   }
 }
 
-export const collapseExpand = projects.forEach(project => project.addEventListener("click", toggleActive));
+export const collapseExpand = project.forEach(button => button.addEventListener("click", toggleActive));

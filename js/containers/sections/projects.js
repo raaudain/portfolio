@@ -73,7 +73,7 @@ projects.forEach((project) => {
   icon.className = "fas fa-plus";
   content.className = "content";
   if (!project.image) {
-    console.log("Image unavailable for", project.name);
+    console.info("Image unavailable for", project.name);
   } else {
     image.src = project.image;
     image.alt = project.name;
