@@ -1,17 +1,5 @@
-const headers = [
-  {
-    header: "SKILLS",
-    id: "skills",
-  },
-  {
-    header: "PROJECTS",
-    id: "projects",
-  },
-  {
-    header: "ABOUT US",
-    id: "about-me",
-  },
-];
+import { headers } from "../data/index.js"
+
 
 // Find right-container id
 export const right = document.querySelector("#right-container");

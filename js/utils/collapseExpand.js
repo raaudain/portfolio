@@ -1,9 +1,7 @@
 const project = document.querySelectorAll(".project");
 
 function toggleActive(e) {
-  // Declares content id as a variable
-  const content = this.querySelector(".content"); 
-  // Declares icon in nav as variable
+  const content = this.querySelector(".content");
   const toggleClass = this.querySelector("i");
   const tagName = e.target.tagName;
 

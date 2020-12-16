@@ -1,26 +1,5 @@
-const contactInfo = [
-  {
-    text: "ramonaudain@gmail.com",
-    id: "mail",
-    link: "mailto:ramonaudain@gmail.com",
-    icon: "fas fa-envelope",
-    title: "Email",
-  },
-  {
-    text: "www.linkd.in/1M6NE1I",
-    id: "linked",
-    link: "https://www.linkedin.com/in/ramon-audain/",
-    icon: "fab fa-linkedin",
-    title: "LinkedIn profile",
-  },
-  {
-    text: "www.github.com/raaudain",
-    id: "git",
-    link: "https://github.com/raaudain",
-    icon: "fab fa-github",
-    title: "GitHub profile",
-  },
-];
+import { contactInfo } from "../data/index.js"
+
 
 // Find left-container id
 export const left = document.querySelector("#left-container");
@@ -42,6 +21,8 @@ image.alt = "Photo of Ramon Audain";
 
 headers.id = "headers";
 contact.id = "contact";
+
+
 
 contactInfo.forEach((info) => {
   const link = document.createElement("a");
