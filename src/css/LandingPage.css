@@ -1,0 +1,41 @@
+.landingPage {
+    font-family: 'Avenir Next','Segoe ui', Ubuntu, sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 2rem;
+    line-height: 1.6;
+    z-index: 2;
+    position: absolute;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.nav a {
+    padding: 10px 40px;
+    margin: 0 10px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -50px;
+    letter-spacing: .2em;
+    line-height: 1.4;
+}
+
+#name {
+    font-size: 5.25rem;
+
+}
+
+#title {
+    font-size: 3.5rem;
+}

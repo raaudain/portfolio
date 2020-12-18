@@ -1,0 +1,34 @@
+@import url("./Reset.css");
+@import url("./LandingPage.css");
+@import url("./AboutMe.css");
+@import url("./Contact.css");
+@import url("./Projects.css");
+@import url("./ZigZag.css");
+
+* {
+  border: 1px solid red;
+}
+
+html {
+  font-weight: Georgia,serif;
+  font-size: 62.5%;
+  line-height: 1.6;
+}
+
+section {
+  padding-bottom: 70px;
+  margin-bottom: 50px;
+  /* position: absolute; */
+  width: 100%;
+  text-align: center;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+  font-size: 3.75rem;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
