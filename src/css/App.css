@@ -5,20 +5,20 @@
 @import url("./Projects.css");
 @import url("./ZigZag.css");
 
-* {
-  border: 1px solid red;
-}
-
 html {
   font-weight: Georgia,serif;
   font-size: 62.5%;
   line-height: 1.6;
 }
 
+body {
+  font-size: 2rem;
+}
+
 section {
   padding-bottom: 70px;
   margin-bottom: 50px;
-  /* position: absolute; */
+  position: relative;
   width: 100%;
   text-align: center;
 }
@@ -31,4 +31,8 @@ section {
   margin: 0;
   padding-top: 30px;
   margin-bottom: 30px;
+}
+
+img {
+  width: 400px;
 }

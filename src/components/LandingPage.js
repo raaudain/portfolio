@@ -6,10 +6,10 @@ function LandingPage() {
     return (
         <div className="landingPage">
             <div className="nav">
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#about"><span>About</span></a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
             <div className="greeting">
                 <span id="name">Ramon Audain</span>

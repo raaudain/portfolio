@@ -1,5 +1,3 @@
-import { project } from "../assets/img/projects"
-
 export const contactInfo = [
     {
         text: "ramonaudain@gmail.com",
@@ -62,7 +60,7 @@ export const projects = [
         gitHubLink: "https://github.com/raaudain/sauti-marketplace",
         tech: "JavaScript, React, Redux, Axios, Less, HTML, Node.js, Express, SQLite, Knex.js, CORS, Helmet, JSON Web Token, bcrypt, Jest, Supertest",
         description: "A full stack application with form validation and authentication capabilities.",
-        image: "../assets/img/projects/sauti.png",
+        image: "/assets/img/projects/sauti.png",
     },
     // NASA APOD
     {
@@ -71,7 +69,7 @@ export const projects = [
         gitHubLink: "https://github.com/raaudain/nasa-apod",
         tech: "JavaScript, React, Axios, CSS, HTML",
         description: "Every wondered what's going on in outer space? NASA APOD gives you a glimpse of what's going on in the universe.",
-        image: require("../assets/img/projects/apod.png"),
+        image: "/assets/img/projects/apod.png",
     },
     // Gotta Do
     {
