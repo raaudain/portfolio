@@ -10,7 +10,7 @@ function Skills() {
             <ZigZag />
             {skills.map((skill, index) => (
                 <div key={index}>
-                    {skill.image ? (<img src={process.env.PUBLIC_URL + skill.image} />) : null }
+                    {skill.image ? (<img src={process.env.PUBLIC_URL + skill.image} title={skill.name} alt={skill.name} />) : (<i className={skill.icon} title={skill.name}></i>) }
                 </div>
             ))}
         </section>
