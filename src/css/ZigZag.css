@@ -1,8 +1,9 @@
 #zigzag {
     font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     display: inline-block;
-    letter-spacing: -.22em;
+    letter-spacing: -6.5px;
     transform: scale(2,1);
     font-weight: 400;
     font-size: 3rem;
+    margin-bottom: 60px;
 }

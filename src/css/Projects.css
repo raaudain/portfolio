@@ -1,20 +1,26 @@
 .project {
   display: flex;
   margin: 0 auto 60px;
-  width: 800px;
+  width: 900px;
   /* border: 1px red solid; */
   text-align: left;
 }
 
-#projects #zigzag {
-  margin-bottom: 60px;
+.project:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
 }
 
 .project img {
   border: 8px #fff solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 40px;
+  margin: 0 40px 0 0;
   width: 400px;
+}
+
+.project:nth-child(even) img {
+    margin: 0 0 0 40px;
+    /* border: 2px solid green; */
 }
 
 .pInfo {
@@ -25,6 +31,7 @@
   margin: auto;
   width: 100%;
 }
+
 
 .pInfo h3, .pbuttons a {
     font-family: "Avenir Next", "Segoe ui", Ubuntu, sans-serif;
@@ -51,7 +58,7 @@
 
 .pbuttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   /* border: 1px red solid; */
   margin: auto;
@@ -60,7 +67,6 @@
 .pbuttons a {
   font-weight: bold;
   background-color: yellow;
-  padding: 10px 50px;
-  border: 1px solid red;
+  padding: 10px 75px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

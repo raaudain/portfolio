@@ -2,7 +2,6 @@ import React from 'react'
 import ZigZag from './ZigZag'
 
 function AboutMe() {
-
     return (
         <section id="about">
             <h2 className="sectionTitle">About</h2>

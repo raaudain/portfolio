@@ -3,7 +3,6 @@ import { contactInfo } from "../data"
 import ZigZag from './ZigZag'
 
 function Contact() {
-
     return (
         <section id="contact">
             <h2 className="sectionTitle">Contact</h2>

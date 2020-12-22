@@ -2,7 +2,6 @@ import React from 'react'
 import ZigZag from './ZigZag'
 
 function LandingPage() {
-
     return (
         <div className="landingPage">
             <div className="nav">

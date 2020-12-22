@@ -3,7 +3,6 @@ import { skills } from "../data"
 import ZigZag from './ZigZag'
 
 function Skills() {
-
     return (
         <section id="skills">
             <h2 className="sectionTitle">Skills</h2>
