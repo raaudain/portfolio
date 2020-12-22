@@ -8,11 +8,17 @@ function Skills() {
         <section>
             <h2 className="sectionTitle" id="skills">Skills</h2>
             <ZigZag />
-            {skills.map((skill, index) => (
-                <div key={index}>
-                    {skill.image ? (<img src={process.env.PUBLIC_URL + skill.image} title={skill.name} alt={skill.name} />) : (<i className={skill.icon} title={skill.name}></i>) }
-                </div>
-            ))}
+            
+            <div id="skill-list">
+                {skills.map((skill, index) => (
+                    <div className="skill" key={index}>
+                        <a href={skill.link} target="_blank" rel="noopener noreferrer">
+                            {skill.image ? (<img src={process.env.PUBLIC_URL + skill.image} title={skill.name} alt={skill.name} />) : (<i className={skill.icon} title={skill.name}></i>) }
+                            <p>{skill.name}</p>
+                        </a>
+                    </div>
+                ))}
+            </div>
         </section>
     )
 }

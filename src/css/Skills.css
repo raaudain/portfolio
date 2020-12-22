@@ -1,0 +1,74 @@
+#skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.skill {
+    padding: 3%;
+}
+
+.fa-react {
+    color: #61dbfb;
+}
+
+.fa-python {
+    color: #ffe873;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-sass {
+    color: #cd6799;
+}
+
+.fa-less {
+    color: #1d3f6c;
+}
+
+.fa-css3-alt {
+    color: #254bdd;
+}
+
+.fa-html5 {
+    color: #dd4b25;
+}
+
+.fa-yarn {
+    color: #2c8ebb;
+}
+
+.fa-bootstrap {
+    color: #563d7c;
+}
+
+.fa-git-alt {
+    color: #f54d27;
+}
+
+.fa-linux {
+    color: #1f1f1f;
+}
+
+.fa-node-js {
+    color: #689f63;
+}
+
+.fa-npm {
+    color: #cc0000;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.skill img {
+    height: 35px;
+}
+
+.skill i {
+    font-size: 3.9rem;
+}

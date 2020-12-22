@@ -1,54 +1,17 @@
 export const contactInfo = [
     {
-        text: "ramonaudain@gmail.com",
-        id: "mail",
-        link: "mailto:ramonaudain@gmail.com",
-        icon: "fas fa-envelope",
-        title: "Email",
-    },
-    {
-        text: "www.linkd.in/1M6NE1I",
+        text: "LinkedIn",
         id: "linked",
         link: "https://www.linkedin.com/in/ramon-audain/",
         icon: "fab fa-linkedin",
-        title: "LinkedIn profile",
+        title: "LinkedIn",
     },
     {
-        text: "www.github.com/raaudain",
+        text: "GitHub",
         id: "git",
         link: "https://github.com/raaudain",
         icon: "fab fa-github",
-        title: "GitHub profile",
-    },
-];
-  
-export const headers = [
-    {
-        header: "SKILLS",
-        id: "skills",
-    },
-    {
-        header: "PROJECTS",
-        id: "projects",
-    },
-    {
-        header: "ABOUT US",
-        id: "about-me",
-    },
-];
-  
-export const paragraphs = [
-    {
-        content: "So how did I get into software development?",
-    },
-    {
-        content: "Well, after being told by my manager to fill out my timesheet one too many times, I decided to try and write a Python script that would do the work for me. So one Saturday, after 8 hours of researching and coding, I eventually came up with something that worked. After my success, I began thinking that maybe I could do this for a living. So I went back to school and the rest is history.",
-    },
-    {
-        content: "Currently, I live in the Bay Area, CA. Rent's expensive, but I love the weather.",
-    },
-    {
-        content: "During my free time, I enjoy messing around with my computer, watching movies and TV shows, playing video games, and attempting to exercise.",
+        title: "GitHub",
     },
 ];
 
@@ -90,12 +53,12 @@ export const projects = [
         image: "/assets/img/projects/tennis.png",
     },
     // GetPaid
-    {
-        name: "GetPaid",
-        gitHubLink: "https://github.com/raaudain/Get-Paid",
-        tech: "Python, Selenium",
-        description: "If the company you work for uses SpringAhead and you keep forgetting to fill out your hours, GetPaid is for you. GetPaid is a Python script that automatically fills out your timecard.",
-    },
+    // {
+    //     name: "GetPaid",
+    //     gitHubLink: "https://github.com/raaudain/Get-Paid",
+    //     tech: "Python, Selenium",
+    //     description: "If the company you work for uses SpringAhead and you keep forgetting to fill out your hours, GetPaid is for you. GetPaid is a Python script that automatically fills out your timecard.",
+    // },
 ];
 
 export const skills = [
@@ -136,29 +99,29 @@ export const skills = [
         name: "Redux",
     },
     // SQLite
-    {
-        link: "https://www.sqlite.org",
-        image: "/assets/img/skills/SQLite-logo.png",
-        name: "SQLite",
-    },
+    // {
+    //     link: "https://www.sqlite.org",
+    //     image: "/assets/img/skills/SQLite-logo.png",
+    //     name: "SQLite",
+    // },
     // Express
-    {
-        link: "https://expressjs.com/",
-        image: "/assets/img/skills/expressjs.png",
-        name: "Express",
-    },
+    // {
+    //     link: "https://expressjs.com/",
+    //     image: "/assets/img/skills/expressjs.png",
+    //     name: "Express",
+    // },
     // Jest
-    {
-        link: "https://jestjs.io/en/",
-        image: "/assets/img/skills/jest-logo.png",
-        name: "Jest",
-    },
+    // {
+    //     link: "https://jestjs.io/en/",
+    //     image: "/assets/img/skills/jest-logo.png",
+    //     name: "Jest",
+    // },
     // Axios
-    {
-        link: "https://github.com/axios/axios",
-        image: "/assets/img/skills/axios-logo.png",
-        name: "Axios",
-    },
+    // {
+    //     link: "https://github.com/axios/axios",
+    //     image: "/assets/img/skills/axios-logo.png",
+    //     name: "Axios",
+    // },
     // Selenium
     {
         link: "https://www.seleniumhq.org/",
@@ -172,17 +135,17 @@ export const skills = [
         name: "Git",
     },
     // Sass
-    {
-        link: "https://sass-lang.com/",
-        icon: "fab fa-sass",
-        name: "Sass",
-    },
+    // {
+    //     link: "https://sass-lang.com/",
+    //     icon: "fab fa-sass",
+    //     name: "Sass",
+    // },
     // Less
-    {
-        link: "http://lesscss.org/",
-        icon: "fab fa-less",
-        name: "Less",
-    },
+    // {
+    //     link: "http://lesscss.org/",
+    //     icon: "fab fa-less",
+    //     name: "Less",
+    // },
     // CSS
     {
         link: "https://www.w3.org/Style/CSS/",
@@ -195,7 +158,7 @@ export const skills = [
         icon: "fab fa-html5",
         name: "HTML",
     },
-    // Linux
+    //Linux
     {
         link: "https://www.linux.org/",
         image: "/assets/img/skills/linux.png",

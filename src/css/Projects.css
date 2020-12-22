@@ -1,3 +1,31 @@
 .project {
-    /* display: flex; */
+    display: flex;
+    margin: 0 auto 60px;
+    width: 800px;
+    /* border: 1px red solid; */
+}
+
+#projects #zigzag {
+    margin-bottom: 60px;
+}
+
+.project img {
+    border: 8px #fff solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+}
+
+.pbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px red solid; */
+    margin: auto;
+}
+
+.pbuttons a {
+    background-color: yellow;
+    padding: 10px 30px;
+    border: 1px solid red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
