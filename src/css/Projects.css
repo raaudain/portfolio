@@ -4,7 +4,6 @@
   width: 800px;
   /* border: 1px red solid; */
   text-align: left;
-  font-size: 1.6rem;
 }
 
 #projects #zigzag {
@@ -14,12 +13,12 @@
 .project img {
   border: 8px #fff solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 20px;
+  margin-right: 40px;
   width: 400px;
 }
 
 .pInfo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* display: flex;
   flex-direction: column; */
   /* align-items: center; */
@@ -38,11 +37,17 @@
 
 .pInfo h4 {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
     line-height: 1.2;
 }
 
+.pInfo p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 500;
+    margin: 20px 0;
+}
 
 .pbuttons {
   display: flex;
@@ -55,7 +60,7 @@
 .pbuttons a {
   font-weight: bold;
   background-color: yellow;
-  padding: 10px 30px;
+  padding: 10px 50px;
   border: 1px solid red;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
