@@ -5,8 +5,8 @@ import ZigZag from './ZigZag'
 function Skills() {
 
     return (
-        <section>
-            <h2 className="sectionTitle" id="skills">Skills</h2>
+        <section id="skills">
+            <h2 className="sectionTitle">Skills</h2>
             <ZigZag />
             
             <div id="skill-list">

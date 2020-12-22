@@ -10,12 +10,15 @@ function Projects() {
             {projects.map((project, index) => (
                 <div className="project" key={index}>
                     <div>
-                       <img src={process.env.PUBLIC_URL + project.image} alt={project.name}/>
+                       <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
                     </div>
-                    <div>
+                    <div className="pInfo">
                         <div>
                             <h3>{project.name}</h3>
-                            <div>{project.tech}</div>
+                            <h4>{project.tech}</h4>
+                        </div>
+                        <div>
+                            <p>{project.description}</p>
                         </div>
                        <div className="pbuttons">
                            {project.projectLink ? (<a href={project.projectLink}>Demo</a>) : null}

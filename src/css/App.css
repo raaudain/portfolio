@@ -9,11 +9,10 @@
 html {
   font-weight: Georgia,serif;
   font-size: 62.5%;
-  line-height: 1.6;
 }
 
 body {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 section {
@@ -32,8 +31,4 @@ section {
   margin: 0;
   padding-top: 30px;
   margin-bottom: 30px;
-}
-
-img {
-  width: 400px;
 }

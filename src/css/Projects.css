@@ -1,31 +1,61 @@
 .project {
-    display: flex;
-    margin: 0 auto 60px;
-    width: 800px;
-    /* border: 1px red solid; */
+  display: flex;
+  margin: 0 auto 60px;
+  width: 800px;
+  /* border: 1px red solid; */
+  text-align: left;
+  font-size: 1.6rem;
 }
 
 #projects #zigzag {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .project img {
-    border: 8px #fff solid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 20px;
+  border: 8px #fff solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  width: 400px;
 }
 
+.pInfo {
+  border: 1px solid red;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  margin: auto;
+  width: 100%;
+}
+
+.pInfo h3, .pbuttons a {
+    font-family: "Avenir Next", "Segoe ui", Ubuntu, sans-serif;
+    font-weight: bold;
+}
+
+.pInfo h3 {
+    font-size: 3rem;  
+}
+
+.pInfo h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+
 .pbuttons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    /* border: 1px red solid; */
-    margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  /* border: 1px red solid; */
+  margin: auto;
 }
 
 .pbuttons a {
-    background-color: yellow;
-    padding: 10px 30px;
-    border: 1px solid red;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  background-color: yellow;
+  padding: 10px 30px;
+  border: 1px solid red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

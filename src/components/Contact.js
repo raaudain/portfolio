@@ -5,8 +5,8 @@ import ZigZag from './ZigZag'
 function Contact() {
 
     return (
-        <section>
-            <h2 className="sectionTitle" id="contact">Contact</h2>
+        <section id="contact">
+            <h2 className="sectionTitle">Contact</h2>
             <ZigZag />
             <p>You can find me on</p>
             {contactInfo.map((info, index) => (
