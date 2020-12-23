@@ -1,0 +1,40 @@
+#headerBlend {
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    background: #000124;
+    margin-bottom: 40px;
+}
+
+#headerBlend:after {
+    background: linear-gradient(-40deg, #cbdfd6 16px, transparent 0), linear-gradient(40deg,  #cbdfd6 16px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 32px 32px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+}
+
+#footerBlend {
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    background: #cbdfd6;
+}
+
+#footerBlend:after {
+    background: linear-gradient(-40deg, #000124 16px, transparent 0), linear-gradient(40deg,  #000124 16px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 32px 32px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+}

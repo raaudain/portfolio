@@ -10,7 +10,9 @@ function Projects() {
       {projects.map((project, index) => (
         <div className="project" key={index}>
           <div>
-            <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
+            <a href={project.projectLink}>
+              <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
+            </a>
           </div>
           <div className="pInfo">
             <div>
@@ -20,13 +22,14 @@ function Projects() {
             <div>
               <p>{project.description}</p>
             </div>
-            <div className="pbuttons">
+            <div className="pButtons">
               <a href={project.projectLink}>Demo</a>
               <a href={project.gitHubLink}>GitHub</a>
             </div>
           </div>
         </div>
       ))}
+      <hr />
     </section>
   );
 }

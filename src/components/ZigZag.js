@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function ZigZag() {
-    return <span id="zigzag">^^^^</span>
+  return <span id="zigzag">^^^^</span>;
 }
 
-export default ZigZag
+export default ZigZag;

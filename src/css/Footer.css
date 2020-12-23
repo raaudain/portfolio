@@ -1,0 +1,32 @@
+.footer {
+  background-color: #000124;
+  color: #cbdfd6;
+  height: 100px;
+  padding: 40px 200px;
+}
+
+.footer .content {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  padding-left: 5px;
+}
+
+.credit {
+  display: flex;
+  flex-direction: column;
+}
