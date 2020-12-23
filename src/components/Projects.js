@@ -10,7 +10,7 @@ function Projects() {
       {projects.map((project, index) => (
         <div className="project" key={index}>
           <div>
-            <a href={project.projectLink}>
+            <a href={project.projectLink} target="_blank" rel="noopener noreferrer">
               <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
             </a>
           </div>
@@ -23,8 +23,8 @@ function Projects() {
               <p>{project.description}</p>
             </div>
             <div className="pButtons">
-              <a href={project.projectLink}>Demo</a>
-              <a href={project.gitHubLink}>GitHub</a>
+              <a href={project.projectLink} target="_blank" rel="noopener noreferrer">Demo</a>
+              <a href={project.gitHubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
         </div>

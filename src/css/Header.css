@@ -21,10 +21,29 @@
   padding: 10px 40px;
   margin: 0 10px;
   color: #194587;
+  position: relative;
 }
 
-.nav a:hover {
-  text-decoration: underline;
+.nav a:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #031458;
+  visibility: hidden;
+  display: block;
+  transition: all 0.3s ease-in;
+  /* transform: scale(1,0) translate(0, -10px, 0); */
+  /* transition: 80ms ease-in; */
+}
+
+.nav a:hover:before {
+  visibility: visible;
+  /* margin: auto; */
+  /* width: 40px; */
+  height: 3px;
 }
 
 #header .content {
