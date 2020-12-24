@@ -86,7 +86,7 @@ export const projects = [
     projectLink: "https://tennis-game.raaudain.now.sh",
     gitHubLink: "https://github.com/raaudain/tennis-game",
     tech: "JavaScript, CSS, HTML",
-    description: "Have time to kill? Play a clone of an arcade classic",
+    description: "Have time to kill? Play a clone of an arcade classic.",
     image: "/assets/img/projects/tennis.png",
   },
   // GetPaid
