@@ -8,7 +8,6 @@
 }
 
 .nav {
-  font-size: 2rem;
   line-height: 1.6;
   z-index: 2;
   position: absolute;
@@ -27,9 +26,7 @@
   transition: 0.25s ease-out;
 }
 
-#header .content {
-  display: flex;
-  flex-direction: column;
+#header .intro {
   position: absolute;
   top: 45%;
   width: 100%;
@@ -39,6 +36,8 @@
   letter-spacing: 2.25px;
   line-height: 1.4;
 }
+
+
 
 .name {
   font-size: 5.25rem;
@@ -56,4 +55,9 @@
 
 #header .zigzag {
   color: #031458;
+}
+
+
+@media(max-width: 700px) {
+
 }

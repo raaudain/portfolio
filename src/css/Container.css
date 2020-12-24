@@ -3,6 +3,8 @@
   font-family: "Avenir Next", "Segoe ui", Ubuntu, sans-serif;
   background-color: #cbdfd6;
   font-weight: 500;
+  color: #000;
+  width: 100%;
 }
 
 section {
@@ -27,3 +29,5 @@ hr {
   border-top: 1px;
   color: #fff;
 }
+
+

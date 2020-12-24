@@ -10,9 +10,9 @@ function Header() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <div className="content">
-          <span className="name">Ramon Audain</span>
-          <span className="title">Software Developer</span>
+        <div className="intro">
+          <p className="name">Ramon Audain</p>
+          <p className="title">Software Developer</p>
           <ZigZag />
         </div>
       </header>
