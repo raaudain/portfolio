@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
             <div id="footerBlend" />
-            <div className="footer">
+            <footer className="footer">
                 <div className="content">
                     <div className="credit">
                         <span>Designed and coded by <a href="https://www.github.com/raaudain" target="_blank" rel="noopener noreferrer">Ramon Audain</a></span>
@@ -17,7 +17,7 @@ function Footer() {
                         <a href="#contact">Contact</a>
                     </div>
                 </div>
-            </div>
+            </footer>
         </>
     )
 }

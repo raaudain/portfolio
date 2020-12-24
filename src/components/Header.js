@@ -4,7 +4,7 @@ import ZigZag from "./ZigZag";
 function Header() {
   return (
     <>
-      <div id="header">
+      <header id="header">
         <div className="nav">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
@@ -15,7 +15,7 @@ function Header() {
           <span id="title">Software Developer</span>
           <ZigZag />
         </div>
-      </div>
+      </header>
       <div id="headerBlend" />
     </>
   );

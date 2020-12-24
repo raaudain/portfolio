@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   height: 120vh;
-  background-image: url("../img/img-ly-AK66mYNrbk0-unsplash.jpg");
+  background-image: url("../img/bg.jpg");
 }
 
 .nav {
@@ -20,11 +20,14 @@
 .nav a {
   padding: 10px 40px;
   margin: 0 10px;
-  color: #194587;
-  position: relative;
 }
 
-.nav a:before {
+.nav a:hover {
+  color: #031458;
+  transition: 0.25s ease-out;
+}
+
+/* .nav a:before {
   content: "";
   position: absolute;
   width: 100px;
@@ -35,16 +38,13 @@
   visibility: hidden;
   display: block;
   transition: all 0.3s ease-in;
-  /* transform: scale(1,0) translate(0, -10px, 0); */
-  /* transition: 80ms ease-in; */
+
 }
 
 .nav a:hover:before {
   visibility: visible;
-  /* margin: auto; */
-  /* width: 40px; */
   height: 3px;
-}
+} */
 
 #header .content {
   display: flex;
