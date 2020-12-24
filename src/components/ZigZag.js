@@ -1,7 +1,7 @@
 import React from "react";
 
 function ZigZag() {
-  return <span id="zigzag">^^^^</span>;
+  return <span className="zigzag">^^^^</span>;
 }
 
 export default ZigZag;

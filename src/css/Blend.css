@@ -1,11 +1,11 @@
-#headerBlend {
+.headerBlend {
     position: relative;
     padding: 8px 8px 32px 8px;
     background: #000124;
     margin-bottom: 40px;
 }
 
-#headerBlend:after {
+.headerBlend:after {
     background: linear-gradient(-40deg, #cbdfd6 16px, transparent 0), linear-gradient(40deg,  #cbdfd6 16px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;
@@ -19,13 +19,13 @@
     height: 32px;
 }
 
-#footerBlend {
+.footerBlend {
     position: relative;
     padding: 8px 8px 32px 8px;
     background: #cbdfd6;
 }
 
-#footerBlend:after {
+.footerBlend:after {
     background: linear-gradient(-40deg, #000124 16px, transparent 0), linear-gradient(40deg,  #000124 16px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;

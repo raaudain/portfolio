@@ -27,25 +27,6 @@
   transition: 0.25s ease-out;
 }
 
-/* .nav a:before {
-  content: "";
-  position: absolute;
-  width: 100px;
-  height: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #031458;
-  visibility: hidden;
-  display: block;
-  transition: all 0.3s ease-in;
-
-}
-
-.nav a:hover:before {
-  visibility: visible;
-  height: 3px;
-} */
-
 #header .content {
   display: flex;
   flex-direction: column;
@@ -59,20 +40,20 @@
   line-height: 1.4;
 }
 
-#name {
+.name {
   font-size: 5.25rem;
   color: #031458;
 }
 
-#title {
+.title {
   font-size: 3.25rem;
   margin-bottom: 30px;
 }
 
-#title, .nav a {
+.title, .nav a {
   color: #cbdfd6;
 }
 
-#header #zigzag {
+#header .zigzag {
   color: #031458;
 }

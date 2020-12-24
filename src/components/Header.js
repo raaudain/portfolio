@@ -11,12 +11,12 @@ function Header() {
           <a href="#contact">Contact</a>
         </div>
         <div className="content">
-          <span id="name">Ramon Audain</span>
-          <span id="title">Software Developer</span>
+          <span className="name">Ramon Audain</span>
+          <span className="title">Software Developer</span>
           <ZigZag />
         </div>
       </header>
-      <div id="headerBlend" />
+      <div className="headerBlend" />
     </>
   );
 }

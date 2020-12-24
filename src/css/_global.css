@@ -1,37 +1,5 @@
 html {
   font-size: 62.5%;
-  font-weight: Georgia, serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Avenir Next", "Segoe ui", Ubuntu, sans-serif;
-  background-color: #cbdfd6;
-  font-weight: 500;
-}
-
-section {
-  padding-bottom: 70px;
-  margin-bottom: 50px;
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-
-.sectionTitle {
-  text-align: center;
-  font-size: 3.75rem;
-  font-weight: bold;
-  padding-top: 30px;
-  margin-bottom: 30px;
-  color: #000649;
-}
-
-hr {
-  margin-top: 100px;
-  width: 200px;
-  border-top: 1px;
-  color: #fff;
 }
