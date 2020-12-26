@@ -13,12 +13,12 @@
 .project img {
   border: 8px #fff solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0 40px 0 0;
-  width: 400px;
+  margin: 0 60px 0 0;
+  width: 404px;
 }
 
 .project:nth-child(even) img {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 60px;
 }
 
 .pInfo {
@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-.pInfo h3, .pButtons a {
+.pInfo h3 {
   font-weight: bold;
 }
 
@@ -34,7 +34,8 @@
   font-size: 3rem;
 }
 
-.pInfo h4, .pInfo p {
+.pInfo h4,
+.pInfo p {
   font-family: Georgia, serif;
 }
 
@@ -58,59 +59,32 @@
 .pButtons a {
   color: #cbdfd6;
   background-color: #000649;
-  padding: 10px 75px;
+  padding: 10px 70px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pButtons a:hover {
-    background-color: #75acaf;
-    transition: 0.25s ease-out;
+  background-color: #75acaf;
+  transition: 0.25s ease-out;
 }
 
 
-@media(max-width: 768px) {
-    /* #projects {
-        width: 100%;
-    } */
+@media (max-width: 812px) {
+  .project:nth-child(n) {
+    flex-direction: column;
+    width: 300px;
+    text-align: left;
+  }
 
-    .project {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto 70px;
-        width: 100%;
-        text-align: left;
-        border: 1px solid red;
-        padding: 0 40px;
-      }
+  .pButtons a {
+    padding: 10px 41px;
+    box-shadow: none;
+  }
 
-    .project:nth-child(even) {
-        flex-direction: column;
-        text-align: left;
-        width: 100%;
-    }
-
-    .pButtons {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-      }
-
-    .project img {
-        border: 8px #fff solid;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin: 0 0 20px 0;
-        width: 100%;
-      }
-
-      .project:nth-child(even) img {
-        margin: 0 0 20px 0;
-        width: 100%;
-      }
-
-      .pButtons a {
-        color: #cbdfd6;
-        background-color: #000649;
-        padding: 10px 50px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      }
+  .project:nth-child(n) img {
+    border: 8px #fff solid;
+    margin: 0 0 20px 0;
+    width: 94.5%;
+    box-shadow: none;
+  }
 }

@@ -8,11 +8,10 @@
 }
 
 .nav {
+  display: flex;
+  justify-content: center;
   line-height: 1.6;
-  z-index: 2;
-  position: absolute;
   padding: 20px 0;
-  text-align: center;
   width: 100%;
 }
 
@@ -37,8 +36,6 @@
   line-height: 1.4;
 }
 
-
-
 .name {
   font-size: 5.25rem;
   color: #031458;
@@ -58,6 +55,17 @@
 }
 
 
-@media(max-width: 700px) {
+@media(max-width: 450px) {
+  .name {
+    font-size: 3.25rem;
+  }
 
+  .title {
+    font-size: 2.25rem;
+  }
+
+  .nav a {
+    font-weight: 500;
+    padding: 10px 12px;
+  }
 }
