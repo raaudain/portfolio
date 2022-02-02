@@ -1,0 +1,9 @@
+.zigzag {
+  display: inline-block;
+  letter-spacing: -6.5px;
+  transform: scale(2, 1);
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0 0 60px -13px;
+  color: #75acaf;
+}
