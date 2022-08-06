@@ -1,12 +1,12 @@
 export const contactInfo = [
   {
     text: "LinkedIn",
-    link: "https://www.linkedin.com/in/ramon-audain/",
+    link: "https://www.linkedin.com/in/ramonaudain/",
   },
-  {
-    text: "Twitter",
-    link: "https://twitter.com/ramonaudain",
-  },
+  // {
+  //   text: "Twitter",
+  //   link: "https://twitter.com/ramonaudain",
+  // },
   {
     text: "GitHub",
     link: "https://github.com/raaudain",
