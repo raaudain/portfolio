@@ -7,7 +7,7 @@ function AboutMe() {
       <h2 className="sectionTitle">About</h2>
       <ZigZag />
       <div>
-        <p>Software developer focusing on web development and automation.</p>
+        <p>Software engineer focusing on web development and automation.</p>
       </div>
       <hr />
     </section>

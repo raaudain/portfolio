@@ -19,7 +19,7 @@ export const projects = [
     name: "DevJobs",
     projectLink: "https://devjobs-raaudain.vercel.app/",
     gitHubLink: "https://github.com/raaudain/devjobs-frontend",
-    tech: "JavaScript, AJAX, Bootstrap 5, CSS, DOM Manipulation, Python, Requests, BeautifulSoup4, Selenium",
+    tech: "JavaScript, Bootstrap 5, CSS, Python, Requests, BeautifulSoup4, Selenium",
     description: "A job board aggregator for people working in software development and engineering, DevOps, and IT. The purpose of this application is to make job searching a little easier.",
     image: "/assets/img/projects/devjobs.png",
   },

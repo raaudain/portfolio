@@ -12,7 +12,7 @@ function Header() {
         </div>
         <div className="intro">
           <p className="name">Ramon Audain</p>
-          <p className="title">Software Developer</p>
+          <p className="title">Software Engineer</p>
           <ZigZag />
         </div>
       </header>
